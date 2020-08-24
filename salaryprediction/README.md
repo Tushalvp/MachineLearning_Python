@@ -21,7 +21,7 @@ train_features and test_features                              |  train_salaries 
 | industry                      |    HEALTH, WEB, AUTO, FINANCE, EDUCATION, OIL, SERVICE                                |
 
 
-- <ins>**Distribution of Target variable**</ins>:
+- <ins>**Data distribution  - Target variable**</ins>:
 
 <img src="images/distribution_target.png" title="Target"/>
 
@@ -30,7 +30,9 @@ train_features and test_features                              |  train_salaries 
 
 - <ins>**Project acceptance criteria**:</ins>  MSE =< 320
     
-- <ins>**Summary**</ins>: 
+### Conclusion
+- <ins>**Select Best Model**</ins>:
+We created 3 different models to check the efficacy and choose the one with lowest MSE, in our case it is **Gradient Boosting Regressor**
 
 | Model                       | Mean Squared Error (MSE)|
 |----------                   |:-------------:          |
@@ -38,8 +40,6 @@ train_features and test_features                              |  train_salaries 
 | Random Forest Regressor     |    314.55               |
 | Linear Regression           |    358.17               |
 
-We created 3 different models to check the efficacy and choose the one with lowest MSE, in our case it will be **Gradient Boosting Regressor**
-
 - <ins>**Feature Importance**</ins>:
-
+Based on the existing and newly engineered features, we can say that new features out perform the existing one and conlude that **group_mean** is strong feature to make predictions followed by **yearsExperience** and **milesFromMetropolis**
 <img src="images/importantfeature.png" title="Target"/>
