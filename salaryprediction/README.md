@@ -49,4 +49,4 @@ We created 3 different models to check the efficacy and choose the one with lowe
 
 - <ins>**Feature Importance**</ins>:
 
-<img src="salaryprediction/images/importantfeature.PNG" title="Target"/>
+<img src="images/importantfeature.png" title="Target"/>
