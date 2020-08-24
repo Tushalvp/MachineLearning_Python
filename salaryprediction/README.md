@@ -41,5 +41,5 @@ We created 3 different models to check the efficacy and choose the one with lowe
 | Linear Regression           |    358.17               |
 
 - <ins>**Feature Importance**</ins>:
-Based on the existing and newly engineered features, we can say that new features out perform the existing one and conlude that **group_mean** is strong feature to make predictions followed by **yearsExperience** and **milesFromMetropolis**
+Based on the existing and newly engineered features, we can say that new features out perform the existing one and conclude that **group_mean** is a strong feature to make predictions followed by **yearsExperience** and **milesFromMetropolis**
 <img src="images/importantfeature.png" title="Target"/>
