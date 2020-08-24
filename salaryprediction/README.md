@@ -21,17 +21,10 @@ train_features and test_features                              |  train_salaries 
 | industry                      |    HEALTH, WEB, AUTO, FINANCE, EDUCATION, OIL, SERVICE                                |
 
 
+- <ins>**Distribution of Target variable**</ins>:
 
+<img src="images/distribution_target.png" title="Target"/>
 
-
-
-- <ins>**Project Folder Structure**</ins>: 
-    - **SalaryPrediction**: Root directory, used as Project name 
-    - **modules** : Helper function files, used for data loading, data exploration, feature engineering, visulaztion are placed here
-    - **data** : Stores raw and transformed datasets
-        - *raw* : original source data without any transformation
-        - *output* : final result from the model is stored in this location
-    - **code** : Predictive model script in the form of jupyter notebook is placed here
 
 - <ins>**Evalulation Metric**:</ins> Mean squared error <br> 
 
