@@ -48,3 +48,5 @@ train_features and test_features                              |  train_salaries 
 We created 3 different models to check the efficacy and choose the one with lowest MSE, in our case it will be **Gradient Boosting Regressor**
 
 - <ins>**Feature Importance**</ins>:
+
+<img src="images/importantfeature.PNG" title="Target"/>
